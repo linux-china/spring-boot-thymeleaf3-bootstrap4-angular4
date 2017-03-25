@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <title layout:title-pattern="$CONTENT_TITLE">Demo</title>
+    <script>
+        var page = "layout"
+    </script>
+</head>
+<body>
+<header>
+    <h1>Site Header</h1>
+</header>
+<section data-layout-fragment="content">
+    <p>Page content goes here</p>
+</section>
+
+<section>
+    <p>Site Footer</p>
+</section>
+</body>
+</html>
