@@ -36,3 +36,7 @@ ng new --skip-install=true frontend
 
 * ng proxy to spring boot application
 * frontend-maven-plugin to help build angular app
+
+### Reference
+
+* A Maven plugin that downloads/installs Node and NPM locally, runs NPM install, Grunt, Gulp and/or Karma： https://github.com/eirslett/frontend-maven-plugin
