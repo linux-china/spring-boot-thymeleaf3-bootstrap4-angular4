@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import {Component} from "@angular/core";
+import {UserService} from "./service/user.service";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    providers: [UserService]
 })
 export class AppComponent {
-  title = 'app works!';
+    title = 'app works!';
+
+    constructor(private userService: UserService) {
+        console.log("init AppComponent")
+    }
+
+    echo(): string {
+        return this.userService.findById(1)
+    }
 }
