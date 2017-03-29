@@ -62,7 +62,8 @@ app
      app.module.ts
   domain
      model
-       account.ts: entity, vo and repository
+       account.ts: entity, vo 
+       account.repository.ts: repository
      service:
        account-service.ts
      specification
