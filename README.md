@@ -32,6 +32,20 @@ cd src/main
 ng new --skip-install=true frontend
 ```
 
+### Vocabulary
+
+* Component: Application Building Blocks
+* Routing: Drive Application Design
+* Services: Encapsulate(封装) Application Logic
+* Modules: Compartmentalize(划分) Concerns
+* Styling: Angular Material2 Module
+* Directives and Pipes: Templates on Steroids
+
+### Commands
+
+* generate component: ng g component menu
+* generate service: ng g service account
+
 ### Features
 
 * ng proxy to spring boot application
