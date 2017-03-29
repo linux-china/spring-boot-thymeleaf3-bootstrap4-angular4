@@ -56,9 +56,10 @@ assets
 app
   components
      menu
-        menu-component.ts
-        menu-component.html
-        menu-component.css
+        menu.component.ts
+        menu.component.html
+        menu.component.css
+     app.module.ts
   domain
      model
        account.ts: entity, vo and repository
@@ -66,6 +67,8 @@ app
        account-service.ts
      specification
        account-spec.ts
+     infrastructure
+       cache.service.ts
   app.module.ts
 ```
 
