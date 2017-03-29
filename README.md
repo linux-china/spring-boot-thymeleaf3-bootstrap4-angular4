@@ -45,6 +45,29 @@ ng new --skip-install=true frontend
 
 * generate component: ng g component menu
 * generate service: ng g service account
+* generate class: ng g class account
+
+### Code Structure
+Domain Driven Design is good architecture to arrange code:
+
+```
+assets
+  demo.jpg
+app
+  components
+     menu
+        menu-component.ts
+        menu-component.html
+        menu-component.css
+  domain
+     model
+       account.ts: entity, vo and repository
+     service:
+       account-service.ts
+     specification
+       account-spec.ts
+  app.module.ts
+```
 
 ### Features
 
