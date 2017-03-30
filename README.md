@@ -24,6 +24,16 @@ $ npm install -g @angular/cli
 
 * install modules: cd src/main/frontend & npm install
 * mvn -DskipTests clean package
+* reference resource in template page. Add following code in you thymeleaf pages:
+
+```html
+<script type="text/javascript" src="inline.bundle.js"></script>
+<script type="text/javascript" src="polyfills.bundle.js"></script>
+<script type="text/javascript" src="styles.bundle.js"></script>
+<script type="text/javascript" src="vendor.bundle.js"></script>
+<script type="text/javascript" src="main.bundle.js"></script>
+</body>
+```
 
 ### AngularJS App Template
 
@@ -54,6 +64,7 @@ Domain Driven Design is good architecture to arrange code:
 assets
   demo.jpg
 app
+  types.ts
   components
      menu
         menu.component.ts
@@ -72,6 +83,10 @@ app
        cache.service.ts
   app.module.ts
 ```
+some idea:
+
+* entity, value object are all interface in TS
+* repository and service are the class in TS
 
 ### Features
 
