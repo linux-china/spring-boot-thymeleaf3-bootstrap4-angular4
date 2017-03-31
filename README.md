@@ -103,3 +103,4 @@ some idea:
 * http://www.angulartypescript.com/
 * Debug angular in webstorm:  https://blog.jetbrains.com/webstorm/2017/01/debugging-angular-apps/
 * TypeScript Chinese Document: https://tslang.cn/docs/tutorial.html
+* Type search: http://microsoft.github.io/TypeSearch/
