@@ -88,6 +88,10 @@ some idea:
 * entity, value object are all interface in TS
 * repository and service are the class in TS
 
+### TypeScript
+
+* variable and parameter null check: let name: string|null
+
 ### Features
 
 * ng proxy to spring boot application
@@ -96,3 +100,4 @@ some idea:
 ### Reference
 
 * A Maven plugin that downloads/installs Node and NPM locally, runs NPM install, Grunt, Gulp and/or Karma： https://github.com/eirslett/frontend-maven-plugin
+* http://www.angulartypescript.com/
