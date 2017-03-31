@@ -101,3 +101,5 @@ some idea:
 
 * A Maven plugin that downloads/installs Node and NPM locally, runs NPM install, Grunt, Gulp and/or Karma： https://github.com/eirslett/frontend-maven-plugin
 * http://www.angulartypescript.com/
+* Debug angular in webstorm:  https://blog.jetbrains.com/webstorm/2017/01/debugging-angular-apps/
+* TypeScript Chinese Document: https://tslang.cn/docs/tutorial.html
