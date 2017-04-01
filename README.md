@@ -5,9 +5,9 @@ Spring Boot Kotlin Application with Thymeleaf 3, BootStrap 4 and Angular 4
 ### Technology Stack
 
 * Spring Boot 1.5.2
+* Angular 4
 * Thymeleaf 3
 * BootStrap 4 Alpha6 with JQuery 3.1.1
-* Angularjs 4
 * Kotlin 1.1
 
 ### Environment Setup
@@ -16,15 +16,18 @@ Spring Boot Kotlin Application with Thymeleaf 3, BootStrap 4 and Angular 4
 $ brew install nodejs
 $ brew install golang
 $ brew install go
-$ brew install git
+$ brew install typescript
 $ npm install -g @angular/cli
 ```
 
 ### Development
 
+Please "cd src/main/frontend" and execute "npm starter" to start Angular server then write Angular code.
+Angular server will use "src/main/frontend/proxy.conf.json" to reverse API call to Spring Boot.
+
 * install modules: cd src/main/frontend & npm install
 * mvn -DskipTests clean package
-* reference resource in template page. Add following code in you thymeleaf pages:
+* reference resource in template layout page. Add following code in you thymeleaf layout page:
 
 ```html
 <script type="text/javascript" src="inline.bundle.js"></script>
@@ -32,7 +35,6 @@ $ npm install -g @angular/cli
 <script type="text/javascript" src="styles.bundle.js"></script>
 <script type="text/javascript" src="vendor.bundle.js"></script>
 <script type="text/javascript" src="main.bundle.js"></script>
-</body>
 ```
 
 ### AngularJS App Template
