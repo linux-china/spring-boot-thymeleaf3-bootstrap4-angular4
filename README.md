@@ -97,7 +97,7 @@ some idea:
 ### Features
 
 * ng proxy to spring boot application
-* frontend-maven-plugin to help build angular app
+* frontend-maven-plugin to help to build angular app with Spring Boot
 
 ### Reference
 
