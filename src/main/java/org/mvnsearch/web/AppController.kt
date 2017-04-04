@@ -22,6 +22,6 @@ class PortController {
     @GetMapping("/json")
     @ResponseBody
     fun jsonData(): Map<String, Any> {
-        return mapOf("id" to 1, "nick" to "Jackie");
+        return mapOf("id" to 1, "nick" to "Jackie from Spring Boot");
     }
 }
