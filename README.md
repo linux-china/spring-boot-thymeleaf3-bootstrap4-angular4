@@ -5,7 +5,7 @@ Spring Boot Kotlin Application with Thymeleaf 3, BootStrap 4 and Angular 4
 ### Technology Stack
 
 * Spring Boot 1.5.2
-* Angular 4
+* Angular 4 with Node 7.8.0 and NPM 4.4.4
 * Thymeleaf 3
 * BootStrap 4 Alpha6 with JQuery 3.1.1
 * Kotlin 1.1
@@ -22,7 +22,7 @@ $ npm install -g @angular/cli
 
 ### Development
 
-Please "cd src/main/frontend" and execute "npm starter" to start Angular server then write Angular code.
+Please "cd src/main/frontend" and execute "npm start" to start Angular server then write Angular code.
 Angular server will use "src/main/frontend/proxy.conf.json" to reverse API call to Spring Boot.
 
 * install modules: cd src/main/frontend & npm install
