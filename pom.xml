@@ -18,7 +18,7 @@
         <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
         <start-class>org.mvnsearch.web.DemoApp</start-class>
         <kotlin.version>1.1.2-2</kotlin.version>
-        <thymeleaf.version>3.0.5.RELEASE</thymeleaf.version>
+        <thymeleaf.version>3.0.6.RELEASE</thymeleaf.version>
         <thymeleaf-layout-dialect.version>2.2.1</thymeleaf-layout-dialect.version>
         <thymeleaf-extras-data-attribute.version>2.0.1</thymeleaf-extras-data-attribute.version>
         <thymeleaf-extras-java8time.version>3.0.0.RELEASE</thymeleaf-extras-java8time.version>
