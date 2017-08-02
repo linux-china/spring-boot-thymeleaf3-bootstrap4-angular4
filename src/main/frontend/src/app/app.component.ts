@@ -14,10 +14,6 @@ export class AppComponent {
     constructor(private userService: UserService, httpClient: HttpClient) {
         console.log("init AppComponent");
         // remote service
-        httpClient.get('/json').subscribe(result => this.user = result);
-    }
-
-    echo(): string {
-        return this.userService.findById(1)
+        userService.findById(1).subscribe(result => this.user = result);
     }
 }
