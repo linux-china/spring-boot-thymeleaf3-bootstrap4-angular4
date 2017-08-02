@@ -5,6 +5,7 @@ import {HttpModule} from "@angular/http";
 import {MaterialModule} from "@angular/material";
 
 import {AppComponent} from "./app.component";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
     declarations: [
@@ -13,8 +14,7 @@ import {AppComponent} from "./app.component";
     imports: [
         BrowserModule,
         FormsModule,
-        HttpModule,
-        MaterialModule
+        HttpClientModule
     ],
     providers: [],
     bootstrap: [AppComponent]
