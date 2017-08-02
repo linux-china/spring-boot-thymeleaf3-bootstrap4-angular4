@@ -10,9 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
  */
 @SpringBootApplication
 open class DemoApp {
-
-}
-
-fun main(args: Array<String>) {
-    SpringApplication.run(DemoApp::class.java, *args)
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            SpringApplication.run(DemoApp::class.java, *args)
+        }
+    }
 }
