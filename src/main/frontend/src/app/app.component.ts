@@ -1,6 +1,6 @@
 import {Component} from "@angular/core";
 import {UserService} from "./service/user.service";
-import {Http} from "@angular/http";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
     selector: 'app-root',
@@ -9,12 +9,12 @@ import {Http} from "@angular/http";
     providers: [UserService]
 })
 export class AppComponent {
-    user = {id: 1, nick: "Jackie"};
+    user = {};
 
-    constructor(private userService: UserService, http: Http) {
+    constructor(private userService: UserService, httpClient: HttpClient) {
         console.log("init AppComponent");
         // remote service
-        // http.get('/json').subscribe(result => this.user = result.json());
+        httpClient.get('/json').subscribe(result => this.user = result);
     }
 
     echo(): string {
