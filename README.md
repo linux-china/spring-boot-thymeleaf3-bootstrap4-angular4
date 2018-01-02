@@ -4,11 +4,11 @@ Spring Boot Kotlin Application with Thymeleaf 3, BootStrap 4 and Angular 4
 
 ### Technology Stack
 
-* Spring Boot 1.5.4
-* Angular 4 with Node 8.1.2 and NPM 5.0.3
+* Spring Boot 1.5.9
+* Angular 4 with Node 9.3.0 and NPM 5.6.0
 * Thymeleaf 3
-* BootStrap 4 Alpha6 with JQuery 3.1.1
-* Kotlin 1.1
+* BootStrap 4 Beta1 with JQuery 3.2.1
+* Kotlin 1.2
 
 ### Environment Setup
 
